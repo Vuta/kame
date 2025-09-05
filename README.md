@@ -1,0 +1,13 @@
+To-dos:
+- [x] gap buffer
+- [x] basic movements
+- [x] insert/delete/
+- [x] save file
+- [x] incremental search
+- [ ] debounce incremental seach
+- [ ] syntax highlighting
+- [ ] undo/redo
+- [ ] rework tab
+- [ ] rework error handling
+- [ ] handle long line
+- [ ] directory
