@@ -1,0 +1,22 @@
+#[derive(PartialEq)]
+pub enum Message {
+    Noop,
+    Quit,
+    Save,
+    UserManual,
+    Search,
+    DeleteUnderCursor,
+    DeleteBeforeCursor,
+    CutToEndOfLine,
+    Insert(char),
+    InsertNewLine,
+    InsertTab,
+    Undo,
+    Redo,
+    ForwardOneChar,
+    BackwardOneChar,
+    JumpToPreviousLine,
+    JumpToNextLine,
+    JumpToEndOfLine,
+    JumpToBeginningOfLine,
+}
